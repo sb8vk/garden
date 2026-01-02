@@ -1,8 +1,8 @@
-# Saahithi's Brain Space 🧠
+# Saahithi's Brain Space 
 
-A personal website that visualizes learning and growth through an interactive neural network. Built for Saahithi Budharaju - AI product leader, mentor, and perpetual learner.
+A personal website that visualizes learning and growth through an interactive neural network
 
-## ✨ Features
+## Features
 
 ### Dynamic Neural Network
 - **Particle-based animation** with 100+ nodes creating organic connections
@@ -11,33 +11,15 @@ A personal website that visualizes learning and growth through an interactive ne
 - **Smooth transitions**: Neural activity shifts seamlessly between selected cards
 
 ### Three Thinking Modes
-1. **Currently Learning** - Active explorations and experiments in progress
-2. **In Retrospect** - Solidified lessons and completed projects
-3. **Mental Models** - Core frameworks that anchor all thinking
+1. **Frontburner** - Active explorations and experiments in progress
+2. **Backburner** - Solidified lessons and completed projects
+3. **Freezer** - Core frameworks that anchor my thinking
 
 ### Content Architecture
 - **Mental models as foundations**: 12 parables that form the basis of decision-making
 - **Learning connections**: Every insight explicitly links back to foundational models
 - **Visual connections**: Click any card to see its neural pathway to related models
 - **Masonry grid layout**: Collision-free, responsive, adapts to any screen size
-
-## 🚀 Quick Start
-
-### View Locally
-1. Download `index.html`
-2. Open in any modern browser
-3. Click cards to see neural connections light up
-
-### Deploy to GitHub Pages
-1. Fork this repository
-2. Go to Settings → Pages
-3. Select "Deploy from main branch"
-4. Your site will be live at `yourusername.github.io/repository-name`
-
-### Deploy to Vercel/Netlify
-1. Import this repository
-2. No build configuration needed (it's a static HTML file)
-3. Deploy - done!
 
 ## 📝 How to Add New Content
 
@@ -57,7 +39,7 @@ mentalModels: [
 ]
 ```
 
-### Adding a Currently Learning Item
+### Adding a Frontburner Item
 
 ```javascript
 currentlyLearning: [
@@ -73,29 +55,11 @@ currentlyLearning: [
 ]
 ```
 
-### Adding an In Retrospect Item
+### Adding an Backburner Item
 
 Same structure as Currently Learning - just add to the `inRetrospect` array instead.
 
-### That's It!
-
-- No code changes needed
-- Refresh page to see updates
-- Connections auto-wire
-- Neural network automatically responds to new cards
-
 ## 🎨 Customization
-
-### Colors
-The site uses three primary colors that map to categories:
-
-```css
---purple: #9b59b6;   /* Shipping & Building */
---orange: #e74c3c;   /* Developing Others */
---gold: #f39c12;     /* Pure Learning */
-```
-
-Update these in the `:root` CSS variables to change the entire color scheme.
 
 ### Neural Network Intensity
 
@@ -174,16 +138,16 @@ Requires:
 
 ### Why This Design?
 
-1. **Brain as metaphor**: The neural network isn't decorative - it represents how knowledge actually forms through connections
+1. **Brain as metaphor**: The neural network represents how knowledge actually forms through connections
 2. **Mental models as roots**: Everything connects back to foundational frameworks (the parables)
 3. **Spatial not chronological**: Ideas aren't organized by time but by relationship
 4. **Interaction reveals structure**: Click to see hidden connections made visible
 
 ### Content Strategy
 
-- **Currently Learning**: Raw, unprocessed, still figuring it out
-- **In Retrospect**: Refined, synthesized, lessons extracted
-- **Mental Models**: Timeless, foundational, referenced everywhere
+- **Frontburner**: Raw, unprocessed, still figuring it out
+- **Backburner**: Refined, synthesized, lessons extracted
+- **Freezer**: Timeless, foundational, referenced everywhere
 
 ## 🔧 Technical Details
 
