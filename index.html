@@ -921,23 +921,24 @@
         // ============================================
 
         function renderAllContent() {
-            renderGrid('frontburner', 'frontburnerGrid');
-            renderGrid('backburner', 'backburnerGrid');
-            renderGrid('coldStorage', 'cold-storage', 'coldStorageGrid');
-            renderGrid('questions', 'questionsGrid');
+            renderGrid('frontburner', 'frontburner', 'frontburnerGrid');
+            renderGrid('backburner', 'backburner', 'backburnerGrid');
+            renderGrid('coldStorage', 'cold-storage', 'coldStorageGrid'); // Fixed mapping
+            renderGrid('questions', 'questions', 'questionsGrid');
         }
 
         function renderGrid(contentKey, category, gridId) {
-            const actualCategory = category || contentKey;
-            const actualGridId = gridId || `${contentKey}Grid`;
-            const grid = document.getElementById(actualGridId);
+            const grid = document.getElementById(gridId);
+            if (!grid) return; // Safety check
+            
             grid.innerHTML = '';
-
+        
             CONTENT[contentKey].forEach((item, index) => {
-                const card = createCard(item, actualCategory, index);
+                const card = createCard(item, category, index);
                 grid.appendChild(card);
             });
         }
+
 
         function createCard(data, category, index) {
             const card = document.createElement('div');
