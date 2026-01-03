@@ -6,7 +6,7 @@ const SYSTEM_DATA = {
         frontburner: "What's capturing my attention.",
         backburner: "Simmering prototypes.",
         portfolio: "Projects, case studies, and lessons learned.",
-        notes: "Musings for cold storage."
+        notes: "Notes and musings to remember."
     },
     
     // CONTENT ARRAYS
