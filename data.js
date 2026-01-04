@@ -6,7 +6,7 @@ const SYSTEM_DATA = {
         frontburner: "what's capturing my attention.",
         backburner: "simmering prototypes.",
         portfolio: "experiments, case studies, and lessons learned.",
-        questions: "notes and musings to remember."
+        thoughts: "notes and musings to remember."
     },
     
     // CONTENT ARRAYS
@@ -43,22 +43,31 @@ const SYSTEM_DATA = {
             image: '' 
         }
     ],
-    questions: [
+    thoughts: [
         { 
             id: 'q1',
             date: 'Jan 2026', 
-            title: 'Icebreaker Questions', 
-            excerpt: 'How do we track the evolution of intuition and leadership maturity?', 
-            body: '• This or that: Travel the world for free but never stay anywhere longer than two days, or live in one dream location forever?\n•This or that: Always be 5% too hot or 5% too cold?\n•Would you rather travel to space for a week or explore the deepest parts of the ocean?\n•This or that: Be able to talk to animals or speak every human language fluently?\n•Would you rather live in a world where it’s always summer or always winter? \n•This or that: Only eat sweet foods forever or only eat savory foods forever?\n•Would you rather always have free tickets to concerts or to sporting events?\n•This or that: Be a master of every board game or a master of every video game?\n•Would you rather have the ability to time travel or teleport instantly anywhere?',
-            tags: ['icebreakers', 'question of the day'],
+            title: 'Personal OS', 
+            excerpt: 'Can you rewrite your kernel level OS?',
+	    body: 'Maybe, but need extreme self-awareness \+ pain \+ forcing function to rewire old perceptions.',
+            tags: ['philosophy'],
             image: '' 
         },
-{ 
+	{ 
             id: 'q2',
             date: 'Jan 2026', 
-            title: 'Mantras', 
-            excerpt: 'How do we track the evolution of intuition and leadership maturity?', 
-            body: '',
+            title: 'Misalignment', 
+            excerpt: 'Will you trust the inner alignment detector over external validation?', 
+            body: 'When forced to choose by company demands or by mission, I\'ll trust my detector.',
+            tags: ['philosophy'],
+            image: '' 
+        },
+	{ 
+            id: 'q3',
+            date: 'Jan 2026', 
+            title: 'Vulnerability', 
+            excerpt: 'Can you choose vulnerability over safety?', 
+            body: 'It\'s easy to default to safety. Partnerships, leadership, and sustained vision require vulnerability and authentic connection to purpose.',
             tags: ['philosophy'],
             image: '' 
         }
